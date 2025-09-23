@@ -1,0 +1,53 @@
+/* Louvado seja o Senhor */
+
+.mainContent{
+    flex: 1;
+}
+
+.mainContent__infoSection__video{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.mainContent__infoSection__carDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 3rem;
+}
+
+.mainContent__infoSection__carDiv__carList{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding: 0 0 2rem 0;
+}
+
+.mainContent__infoSection__carDiv__carList__item{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent__infoSection__carDiv__carList__item__infoDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainContent__infoSection__carDiv__carList__item__infoDiv__checkbox{
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.mainContent__infoSection__carDiv__carList__item__infoDiv__textDiv__carName{
+    color: var(--tertiary-color);
+    font-size: 1.125rem;
+}
+
+.mainContent__infoSection__carDiv__carList__item__infoDiv__textDiv__carInfo{
+    font-size: 0.875rem;
+}
+
+.mainContent__infoSection__carDiv__carList__item__infoDiv__button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

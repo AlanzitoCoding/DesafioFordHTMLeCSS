@@ -1,0 +1,19 @@
+/* Louvado seja o Senhor */
+
+.mainContent{
+    flex: 1;
+    padding: 3rem 1rem;
+    align-items: center;
+}
+
+.mainContent__infoSection{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.mainContent__infoSection__img{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 8px;
+}
