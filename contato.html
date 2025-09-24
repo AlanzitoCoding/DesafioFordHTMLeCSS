@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/contato.css">
     <title>Ford - Contato</title>
 </head>
 <body>
@@ -18,7 +19,25 @@
         </nav>
     </header>
     <main class="mainContent">
-        
+        <section class="mainContent__infoSection">
+            <img class="mainContent__infoSection__img" src="./assets/XL Cabine.jpg" alt="">
+            <form class="mainContent__infoSection__form" action="" method="post">
+                <h2 class="mainContent__infoSection__form__title">Sobre Você</h2>
+                <input class="mainContent__infoSection__form__input" type="text" placeholder="Nome*" required>
+                <input class="mainContent__infoSection__form__input" type="text" placeholder="Sobrenome*" required>
+                <input class="mainContent__infoSection__form__input" type="text" placeholder="CPF*" required>
+                <input class="mainContent__infoSection__form__input" type="email" placeholder="E-mail*" required>
+                <input class="mainContent__infoSection__form__input" type="text" placeholder="Telefone*" required>
+                <select class="mainContent__infoSection__form__input form__dropdown" name="dropdown" id="dropdown">
+                    <option class="mainContent__infoSection__form__dropdown__option" value="elogio" selected disabled hidden>TÓPICO DA MENSAGEM</option>
+                    <option class="mainContent__infoSection__form__dropdown__option" value="elogio">Elogio</option>
+                    <option class="mainContent__infoSection__form__dropdown__option" value="reclamacao">Reclamação</option>
+                    <option class="mainContent__infoSection__form__dropdown__option" value="solicitacao">Solicitação</option>
+                </select>
+                <input class="mainContent__infoSection__form__input" type="text" placeholder="Mensagem*" required>
+                <button class="mainContent__infoSection__form__button" type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
     <footer class="footer">
         <ul class="footer__info">

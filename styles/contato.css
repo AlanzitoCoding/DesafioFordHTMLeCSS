@@ -1,0 +1,51 @@
+/* Louvado seja o Senhor */
+
+.mainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent__infoSection{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.mainContent__infoSection__img{
+    width: 50%;
+    height: 25%;
+}
+
+.mainContent__infoSection__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 25rem;
+}
+
+.mainContent__infoSection__form__input{
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    padding: 0.75rem 2rem 0.5rem 0.5rem;   
+    font-family: var(--main-font-family);
+}
+
+.mainContent__infoSection__form__input::placeholder{
+    text-transform: uppercase;
+    font-family: var(--main-font-family);
+}
+
+.mainContent__infoSection__form__button{
+    width: 50%;
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: 1px solid var(--tertiary-color);
+    align-self: center;
+}
+
+.mainContent__infoSection__form__button:hover{
+    background-color: var(--secondary-color);
+    cursor: pointer;
+}
