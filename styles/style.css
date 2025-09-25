@@ -64,6 +64,10 @@ body{
     font-size: 1.2rem;
 }
 
+.navbar__icon{
+    display: none;
+}
+
 .navbar__link:hover{
     color: var(--highlight-color);
     transition: 300ms;
@@ -96,4 +100,44 @@ body{
 
 .footer__info__link img:hover{
     opacity: 75%;
+}
+
+/* Responsividade para smartphones */
+
+@media(max-width: 430px){
+    /* Cabeçalho */
+
+    .header{
+        justify-content: space-between;
+    }
+    
+    .header__img{
+        width: 5rem;
+    }
+    
+    .navbar{
+        display: flex;
+        right: 10%;
+        gap: 1.5rem;
+    }
+
+    .navbar__link{
+        display: none;
+    }
+
+    .navbar__icon{
+        display: block;
+        text-decoration: none;
+        color: var(--primary-color);
+    }
+
+    .navbar__icon .ph{
+        font-size: 1.5rem;
+    }
+
+    /* Rodapé */
+
+    .footer__info__text{
+        display: none;
+    }
 }

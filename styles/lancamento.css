@@ -25,10 +25,12 @@
 .mainContent__infoSection__carDiv__carList__listBody__item{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .mainContent__infoSection__carDiv__carList__listBody__item__infoDiv{
     display: flex;
+    gap: 2rem;
     justify-content: space-evenly;
 }
 
