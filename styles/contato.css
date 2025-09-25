@@ -49,3 +49,17 @@
     background-color: var(--secondary-color);
     cursor: pointer;
 }
+
+/* Responsividade */
+
+@media(max-width: 430px){
+    .mainContent__infoSection{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainContent__infoSection__img{
+        width: 75%;
+        height: 50%;
+    }
+}

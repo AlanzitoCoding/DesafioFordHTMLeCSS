@@ -76,3 +76,23 @@
 .mainContent__infoSection__carDiv__button::placeholder{
     font-family: var(--main-font-family);
 }
+
+/* Responsividade */
+
+@media(max-width: 430px){
+    .mainContent__infoSection__video{
+        height: 20rem;
+    }
+
+    .mainContent__infoSection__carDiv__carList__listBody{
+        flex-direction: column;
+    }
+
+    .mainContent__infoSection__carDiv__carList__listBody__item__infoDiv__checkbox{
+        width: 7%;
+    }
+
+    .mainContent__infoSection__carDiv__button{
+        width: 50%;
+    }
+}
