@@ -14,36 +14,63 @@
 .mainContent__infoSection__carDiv__carList{
     display: flex;
     justify-content: center;
-    gap: 10rem;
     padding: 0 0 2rem 0;
 }
 
-.mainContent__infoSection__carDiv__carList__item{
+.mainContent__infoSection__carDiv__carList__listBody{
+    display: flex;
+    gap: 5rem;
+}
+
+.mainContent__infoSection__carDiv__carList__listBody__item{
     display: flex;
     flex-direction: column;
 }
 
-.mainContent__infoSection__carDiv__carList__item__infoDiv{
+.mainContent__infoSection__carDiv__carList__listBody__item__infoDiv{
     display: flex;
     justify-content: space-evenly;
 }
 
-.mainContent__infoSection__carDiv__carList__item__infoDiv__checkbox{
+.mainContent__infoSection__carDiv__carList__listBody__item__infoDiv__checkbox{
     width: 1.5rem;
     cursor: pointer;
 }
 
-.mainContent__infoSection__carDiv__carList__item__infoDiv__textDiv__carName{
+.mainContent__infoSection__carDiv__carList__listBody__item__infoDiv__textDiv__carName{
     color: var(--tertiary-color);
     font-size: 1.125rem;
 }
 
-.mainContent__infoSection__carDiv__carList__item__infoDiv__textDiv__carInfo{
+.mainContent__infoSection__carDiv__carList__listBody__item__infoDiv__textDiv__carInfo{
     font-size: 0.875rem;
 }
 
-.mainContent__infoSection__carDiv__carList__item__infoDiv__button{
+.mainContent__infoSection__carDiv__carList__listBody__item__infoDiv__button{
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.mainContent__infoSection__carDiv__carList__listBody__item__infoDiv__button:hover{
+    opacity: 75%;
+}
+
+.mainContent__infoSection__carDiv__button{
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    border: 1px solid var(--tertiary-color);
+    border-radius: 4px;
+    padding: 0.5rem;
+    width: 15%;
+    align-self: center;
+    cursor: pointer;
+}
+
+.mainContent__infoSection__carDiv__button:hover{
+    background-color: var(--secondary-color);
+}
+
+.mainContent__infoSection__carDiv__button::placeholder{
+    font-family: var(--main-font-family);
 }
