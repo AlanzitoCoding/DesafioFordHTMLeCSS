@@ -77,9 +77,22 @@
     font-family: var(--main-font-family);
 }
 
-/* Responsividade */
+/* Responsividade para tablets */
 
-@media(max-width: 430px){
+@media(max-width: 1030px){
+    .mainContent__infoSection__video{
+        height: 35em;
+    }
+
+    .mainContent__infoSection__carDiv__carList__listBody{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Responsividade para smartphones */
+
+@media(max-width: 440px){
     .mainContent__infoSection__video{
         height: 20rem;
     }

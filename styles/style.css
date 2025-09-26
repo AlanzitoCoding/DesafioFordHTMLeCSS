@@ -102,9 +102,17 @@ body{
     opacity: 75%;
 }
 
+/* Responsividade para tablets */
+
+@media(max-width: 1030px){
+    .navbar{
+        right: 30%;
+    }
+}
+
 /* Responsividade para smartphones */
 
-@media(max-width: 430px){
+@media(max-width: 440px){
     /* Cabeçalho */
 
     .header{
