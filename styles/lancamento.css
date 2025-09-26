@@ -31,11 +31,13 @@
 .mainContent__infoSection__carDiv__carList__listBody__item__infoDiv{
     display: flex;
     gap: 2rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .mainContent__infoSection__carDiv__carList__listBody__item__infoDiv__checkbox{
-    width: 1.5rem;
+    max-width: 1.5rem;
+    min-width: 1.5rem;
+    accent-color: var(--tertiary-color);
     cursor: pointer;
 }
 

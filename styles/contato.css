@@ -79,4 +79,8 @@
         width: 75%;
         height: 50%;
     }
+
+    .mainContent__infoSection__form{
+        width: 25rem;
+    }
 }
