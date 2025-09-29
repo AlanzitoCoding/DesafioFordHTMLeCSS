@@ -89,8 +89,15 @@ body{
 .footer__div{
     display: flex;
     justify-content: space-between;
-    
     width: 100%;
+}
+
+.footer__info{
+    margin-left: 1rem;
+}
+
+.footer__img{
+    margin-right: 1rem;
 }
 
 .footer__info{
